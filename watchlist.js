@@ -20,5 +20,3 @@ function renderMovies(moviesArray){
 
   let movies = document.querySelector('.movies-container')
   movies.innerHTML = renderMovies(movieData)(JSON.parse(localStorage.getItem('movieData')))
-  
-  

@@ -54,5 +54,3 @@ function saveToWatchList(imdbID) {
       
       // event listener code goes here
   })
-  
-  
